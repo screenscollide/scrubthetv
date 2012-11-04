@@ -1,27 +1,52 @@
-TV + Remote Demo
-Control your desktop or large screen browser with your iPhone.
+Scrub the TV
+=========
 
-Why was this created?
-TV watching has traditionally been seen as a passive experience. Through social technology and second screen thinking, new opportunities for rich, interactive stories are created.
+Control your desktop or large screen browser using a mobile device.
 
-How was this built?
-Full Javascript stack: NodeJS, ExpressJS, Socket.io, YouTube API, jQuery.
+  - Full Javascript stack using ExpressJS, socket.io, and jQuery
+  - Just point your largescreen and mobile browsers to the same URL to get started
+  - Ideas are welcomed (mail@chrisaiv.com)
 
-Keeping the entire stack in HTML5 and Javascript makes it possible to iterate quickly and fluidly and really focus on the core user experience.
+Users
+-------------
+Second screen consumers, Social TV viewers, Internet TV users, Transmedia academics.
 
-What's next?
-Changes in distributed content, hardware manufacturing, and consumer behavior will also need to catch-up in order to provide a compelling second screen experience. So in short, we don't know what's to come next but that's OK. What's more important is we enjoy the rollercoaster ride.
+Objective?
+-------------
 
-++++++++++++++++++++++++++++++++++++++++++++++++
+TV watching has traditionally been perceived as a passive experience with limited opportunities for interaction. Through social technology and second screen thinking, new opportunities for rich, interactive storytelling can break this pattern of video consumption.
 
-Raw Components
+Strategy
+------------
 
-Remote Control Docs + Resources
-http://addyosmani.github.com/jquery-ui-bootstrap/
+Present a second screen experience using rapid technologies (like HTML, CSS and Javascript) to help producers better understand the new user frustrations and opportunities.
 
-TV Docs + Resources
-https://developers.google.com/youtube/js_api_reference#GettingStarted
-https://code.google.com/apis/ajax/playground/?exp=youtube#polling_the_player
-http://jqueryui.com/demos/slider/
-https://developers.google.com/youtube/youtube_player_demo
-http://custom-drupal.com/jquery-demo/jyoutube
+Technology?
+-----------
+
+Rapid prototyping technologies:
+
+* NodeJS
+* ExpressJS
+* Socket.io
+* jQuery
+* Twitter Bootstrap
+
+Resources
+--------------
+
+1. http://addyosmani.github.com/jquery-ui-bootstrap/
+2. https://developers.google.com/youtube/js_api_reference#GettingStarted
+3. https://code.google.com/apis/ajax/playground/?exp=youtube#polling_the_player
+4. http://jqueryui.com/demos/slider/
+5. https://developers.google.com/youtube/youtube_player_demo
+6. http://custom-drupal.com/jquery-demo/jyoutube
+
+License
+-
+
+MIT
+
+*Free Software, Fuck Yeah!*
+
+[chris mendez]: twitter.com/chrisaiv
