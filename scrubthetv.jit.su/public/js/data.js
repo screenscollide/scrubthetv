@@ -38,7 +38,7 @@ function onYouTubeFeed( e ){
 }
 
 function feed( data ){
-	console.log( "Data::feed:", data );
+	//console.log( "Data::feed:", data );
 	var listItems = [];
 	var arr = data.feed.entry;
 	$.each( data.feed.entry, function( idx, value ){
