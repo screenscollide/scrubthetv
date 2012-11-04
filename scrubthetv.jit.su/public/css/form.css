@@ -1,0 +1,117 @@
+
+form#email-a-friend {
+  background: #9cbc2c;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+}
+form#email-a-friend fieldset {
+  border: none;
+  margin-bottom: 10px;
+}
+form#email-a-friend fieldset:last-of-type {
+  margin-bottom: 0;
+}
+form#email-a-friend legend {
+  color: #384313;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 1px #c0d576;
+}
+form#email-a-friend > fieldset > legend:before {
+  content: "Step " counter(fieldsets) ": ";
+  counter-increment: fieldsets;
+}
+form#email-a-friend fieldset fieldset legend {
+  color: #111111;
+  font-size: 13px;
+  font-weight: normal;
+  padding-bottom: 0;
+}
+form#email-a-friend ol li {
+  background: #b9cf6a;
+  background: rgba(255,255,255,.3);
+  border-color: #e3ebc3;
+  border-color: rgba(255,255,255,.6);
+  border-style: solid;
+  border-width: 2px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 30px;
+  list-style: none;
+  padding: 5px 10px;
+  margin-bottom: 2px;
+}
+form#email-a-friend ol ol li {
+  background: none;
+  border: none;
+  float: left;
+}
+form#email-a-friend label {
+  float: left;
+  font-size: 13px;
+  width: 110px;
+}
+form#email-a-friend fieldset fieldset label {
+  background:none no-repeat left 50%;
+  line-height: 20px;
+  padding: 0 0 0 30px;
+  width: auto;
+}
+form#email-a-friend label[for=visa] {
+  background-image: url(visa.gif);
+}
+form#email-a-friend label[for=amex] {
+  background-image: url(amex.gif);
+}
+form#email-a-friend label[for=mastercard] {
+  background-image: url(mastercard.gif);
+}
+form#email-a-friend fieldset fieldset label:hover {
+  cursor: pointer;
+}
+form#email-a-friend input:not([type=radio]),
+form#email-a-friend textarea {
+  background: #ffffff;
+  border: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  font: italic 13px Georgia, "Times New Roman", Times, serif;
+  outline: none;
+  padding: 5px;
+  width: 200px;
+}
+form#email-a-friend input:not([type=submit]):focus,
+form#email-a-friend textarea:focus {
+  background: #eaeaea;
+}
+form#email-a-friend input[type=radio] {
+  float: left;
+  margin-right: 5px;
+}
+form#email-a-friend button {
+  background: #384313;
+  border: none;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  display: block;
+  font: 18px Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 7px 25px;
+  text-shadow: 0 1px 1px #000000;
+  text-transform: uppercase;
+}
+form#email-a-friend button:hover {
+  background: #1e2506;
+  cursor: pointer;
+}

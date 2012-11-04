@@ -1,0 +1,35 @@
+extends ./layouts/main
+
+block javascripts
+  //-script(defer, src='js/plugins.js')
+
+block stylesheets
+  style(type="text/css", media="screen")
+    body{ 
+      padding-top: 60px;
+      padding-bottom: 40px;
+    }
+
+block content
+
+  div(class="container")
+    //Main hero unit for a primary marketing message or call to action
+    div(class="hero-unit")
+      h1 TV + Remote Demo
+      p  This demostration shows an example of how to hook-up your Boxee or GoogleTV browser with an iPad
+      p
+        a(href="/tv", class="btn btn-primary btn-large") Start Watching &raquo;
+
+    //Example row of columns
+    div(class="row")
+      div(class="span4")
+        h2 Why?
+        p Traditionally, TV watching has been seen as a passive experience.  Through new second screen technologies, there are many opportunties to re-think the relationship you have with your television.  
+
+      div(class="span4")
+        h2 How?
+        p Any new technology will go through multiple iterations.  What's important is to keep a clear vision of this new relationship between the user, their needs, wants, desires, and how those goals can be achieved through seconds screen tools. We chose HTML5 as simple a way to demonstrate those new possibilities.
+
+      div(class="span4")
+         h2 When?
+         p Changes in how data is distributed through telecom providers, hardware manufacturing, and consumer behavior will make this on ehell of a ride. So the short answer is, we don't know but that's what's so exciting about this field. There are many things left to be explored.
