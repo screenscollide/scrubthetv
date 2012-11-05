@@ -23,7 +23,7 @@ head
       link(rel="apple-touch-icon", href="/apple-touch-icon.png")
     //- link(rel="stylesheet", media="handheld", href="css/handheld.css?v=2")
     link(rel="stylesheet", href="/css/plugins/twitter/bootstrap.min.css")
-    link(rel="stylesheet", href="/css/plugins/bootswatch/united/bootstrap.min.css")
+    link(rel="stylesheet", href="/css/plugins/bootswatch/journal/bootstrap.min.css")
 
     style(type="text/css", media="screen")
       body{ 
@@ -74,12 +74,14 @@ body
   block content
   
   block footer
-    hr
-    footer
-      p
-        &copy;
-        span
-        a(href="http://chrisaiv.com/portfolio", target="_new")&nbsp;&nbsp;chrisaiv.com
+    hr 
+    div(class="row")
+      div(class="span10")
+      footer
+            p
+              &copy;
+              span
+              a(href="http://chrisaiv.com/portfolio", target="_new")&nbsp;&nbsp;chrisaiv.com
 
     block javascripts
     include ../includes/analytics
