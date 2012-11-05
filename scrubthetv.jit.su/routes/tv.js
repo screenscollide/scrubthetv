@@ -5,12 +5,12 @@
 
 exports.list = function(req, res){
 	var userAgent   = req.headers["user-agent"];
-	var screenSm  = /(iP(hone|od)|PlayBook)/i;
-	var screenLg = /iP(ad|Large Screen|GoogleTV|Boxee|roku)/i;
+	var screenSm  = /(iP(ad|hone|od)|PlayBook)/i;
+	var screenLg = /(Large Screen|GoogleTV|Boxee|roku|firefox|Safari|Chrome)/i;
 	
-	if( userAgent.match( screenSm ) ){//|| userAgent.match(/Chrome/g) ){
+	if( userAgent.match( screenSm ) ){
 		res.redirect('/remote');
-	} else if( userAgent.match( screenLg ) || userAgent.match(/firefox|Safari/i) ){
+	} else if( userAgent.match( screenLg ) ){
 		res.render('tv', { title: 'TV' } );
 	}
 };

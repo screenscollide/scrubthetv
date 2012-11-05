@@ -12,6 +12,7 @@ body{
 
 #slider-horizontal{
 	display: none;
+	width: inherit;
 }
 #slider-vertical{
 	height:300px;

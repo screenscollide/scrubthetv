@@ -7,7 +7,7 @@ Control your desktop or large screen browser using a mobile device.
   - Just point your largescreen and mobile browsers to the same URL to get started
   - Ideas are welcomed (mail@chrisaiv.com)
 
-Users
+Audience
 -------------
 Second screen consumers, Social TV viewers, Internet TV users, Transmedia academics.
 

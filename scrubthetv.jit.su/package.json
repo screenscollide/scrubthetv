@@ -1,7 +1,7 @@
 {
   "name": "scrubthetv",
   "subdomain": "scrubthetv",
-  "version": "0.0.1-13",
+  "version": "0.0.1-19",
   "private": true,
   "scripts": {
     "start": "app.js"
