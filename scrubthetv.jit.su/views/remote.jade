@@ -15,33 +15,40 @@ block stylesheets
   //jQuery UI 
   link(rel="stylesheet", type="text/css", media="screen", href="/css/custom-theme/jquery-ui-1.8.16.custom.css")
   link(rel="stylesheet", type="text/css", media="screen", href="/css/custom-theme/jquery.ui.1.8.16.ie.css")
-
+  //YouTube data
   link(rel="stylesheet", type="text/css", href="/css/data.css")
+
   link(rel="stylesheet", type="text/css", href="/css/remote.css")
 
 block content
+  div(class="container")
+    div(class="row")
+      div(class="span10")
+        h3 Top 10 Trending Movies on YouTube
 
-  h3 Top 10 Trending Movies on YouTube
-  section(id="selections")
-    select(id="videos", name="videos[]")
-      option(value="") Select a Movie:
-      option(value="WivhDJRXCU4") City Lights
-      option(value="IfonhRkfaf0") Death Grip
+        br
 
-  hr 
+        section(id="selections")
+          select(id="videos", name="videos[]")
+            option(value="") Select a Movie:
+            option(value="WivhDJRXCU4") City Lights
 
-  div(class="row")
-    div(class="span3")
-      h2 Controls
-      a(href="#", id="play")
-        img(border="0", src="/img/icons/playback/play.png")
-      a(href="#", id="mute")
-        img(border="0", src="/img/icons/playback/off.png")
-    div(class="span4")
-      h2 Seek
-      div(id="slider")
-    div(class="span3")
-      h2 Volume
-      p
-        input(type="text", id="amount", style="color:#f6931f; font-weight:bold;")
-      div(id="slider-vertical", style="height:200px;", value="80", min="0", max="80")
+    hr 
+
+    div(class="row")
+      div(class="span3")
+        h2 Controls
+        a(href="#", id="play")
+          img(border="0", src="/img/icons/playback/play.png")
+        a(href="#", id="mute")
+          img(border="0", src="/img/icons/playback/off.png")
+
+      div(class="span4")
+        h2 Seek
+        div(id="slider")
+
+      div(class="span3")
+        h2 Volume
+        p
+          input(type="text", id="amount")
+        div(id="slider-vertical", style="height:300px;", value="80", min="0", max="95")

@@ -6,20 +6,15 @@ body{
   -webkit-user-select: none;
 }
 
-.left{
-  float: left;
-}
-.right{
-  float: right;
-}
-.hide{
-  display: none;
-}
 .show{
   display: inline;
 }
 
-
 #slider{
 	display: none;
+}
+
+#amount{
+	color:#f6931f;
+	width: 30%;
 }
