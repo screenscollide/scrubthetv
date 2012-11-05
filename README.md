@@ -41,6 +41,10 @@ Resources
 4. http://jqueryui.com/demos/slider/
 5. https://developers.google.com/youtube/youtube_player_demo
 6. http://custom-drupal.com/jquery-demo/jyoutube
+7. http://www.georgepaterson.com/2010/11/04/google-tv-user-agent-strings/
+8. https://developers.google.com/tv/web/docs/design_for_tv
+9. http://mike-hostetler.com/jquery-keyboard-navigation-plugin
+
 
 License
 -

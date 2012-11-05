@@ -5,14 +5,6 @@
 * Notes:
 * Simply visit http://scrubthetv.jit.su
 * 
-* GoogleTV user agent strings
-* http://www.georgepaterson.com/2010/11/04/google-tv-user-agent-strings/
-* 
-* Designing for Google Tv
-* https://developers.google.com/tv/web/docs/design_for_tv
-* 
-* jQuery KEyboard Navication Plugin
-* http://mike-hostetler.com/jquery-keyboard-navigation-plugin
 *
 ************************************************/
 
