@@ -1,6 +1,6 @@
 /************************************************
 * Title: scrubthetv.jit.su
-* Desc: Allow your iPhone/iPod/Playbook to control the video screen
+* Desc: Allow your iPhone/iPod Touch/iPad/ or any other tablet device to control the video screen
 * Modified: 
 * Notes:
 * Simply visit http://scrubthetv.jit.su
@@ -43,8 +43,7 @@ app.get('/remote', remote.list);
 var server = http.createServer(app);
 server.listen( app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
-});
+});	
 
-//Socket.io
 var socket = require( process.cwd() + "/lib/Socket.js" );
 	socket.init( server );

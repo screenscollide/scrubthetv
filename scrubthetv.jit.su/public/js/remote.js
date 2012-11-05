@@ -7,8 +7,6 @@
 ////////////////////////////////////////////////////////////
 //Browser
 ////////////////////////
-
-//Selections
 $( "#selections" ).bind("change", function( e ){
 	//var videoId = $('#selections #videos').fieldValue( false );
 	var videoId = $("option:selected").val()
@@ -43,10 +41,9 @@ $("#amount").val( initVol );
 var superDuration = 0;
 
 function initSlider( duration ){
-
 	if( superDuration <  1 ) superDuration = duration;
 	// Slider
-	$('#slider').slider({
+	$('#slider-horizontal').slider({
 		range: true,
 		values: [0, 100],
 		change: function(e, ui){
@@ -56,7 +53,7 @@ function initSlider( duration ){
 			setVideoUpdate( currentTime );
 		}
 	});
-	$("#slider").show();
+	$("#slider-horizontal").show();
 	//Reveal the slider
 	$(".seekBar").show();
 	//Max Slider
@@ -79,12 +76,12 @@ function initSlider( duration ){
 
 function resetTimeSlider( ){
 	$("#minSlider").val( 0 );
-	$('#slider').val( 0 );
+	$('#slider-horizontal').val( 0 );
 }
 
 function updateTimeSlider( duration ){
 	//If the slider isn't visible yet and there's a duration, initialize
-	if( !$("#slider").is(":visible") && duration ) {
+	if( !$("#slider-horizontal").is(":visible") && duration ) {
 		initSlider( duration );
 	}
 }	
@@ -106,6 +103,13 @@ socket.on( "onVideoDuration", function( obj ){
 	setCurrentTime( obj.currentTime  );
 	updateTimeSlider( obj.duration );
 });
+socket.on( "onVideoPlaying", function( obj ){
+	console.log( "From TV::onVideoPlaying" );
+});
+
+socket.on( "onVideoPaused", function( obj ){
+	console.log( "From TV::onVideoPaused" );
+});
 
 socket.on( "emailStatus", function( success ) {
 	console.log("Blah", success );
@@ -122,27 +126,30 @@ function setVideoVolume( e ) {
 
 $("#play").bind("click", playVideo );
 function playVideo( e ) {
-	var img = $( this ).children("img");
-	if( img.attr("src").match( /play.png/i ) ){
-		img.attr("src", "/img/icons/playback/pause.png");
-		socket.emit( "videoplay" );
-		//Upate currrenttime to partial/e-mail-a-friend
-	}else{
-		img.attr("src", "/img/icons/playback/play.png")
+	if( $(this).hasClass("play") ){
+		$(this).removeClass()
+		$(this).addClass("pause")
 		socket.emit( "videopause" );
+	} else {
+		$(this).removeClass();
+		$(this).addClass("play");
+		socket.emit( "videoplay" );
 	}
 	$(document).trigger("updateCurrentTime", getCurrentTime() );
 }
 
 $("#mute").bind("click", muteVideo );
 function muteVideo( e ) {
-	var img = $( this ).children("img");
-	if( img.attr("src").match( /off.png/i ) ){
-		img.attr("src", "/img/icons/playback/on.png" );
+	if( $(this).hasClass("mute") ){
+		$(this).removeClass("mute");
+		$(this).addClass("unmute");
+		
 		socket.emit( 'videomute' );
 	} else {
-		img.attr("src", "/img/icons/playback/off.png" );
-		socket.emit('videoon' );
+		$(this).removeClass("unmute");
+		$(this).addClass("mute");
+		
+		socket.emit('videounmute' );
 	}
 }
 

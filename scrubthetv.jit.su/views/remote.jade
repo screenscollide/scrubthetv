@@ -38,17 +38,15 @@ block content
     div(class="row")
       div(class="span3")
         h2 Controls
-        a(href="#", id="play")
-          img(border="0", src="/img/icons/playback/play.png")
-        a(href="#", id="mute")
-          img(border="0", src="/img/icons/playback/off.png")
+        a(href="#", id="play", class="play")
+        a(href="#", id="mute", class="mute")
 
       div(class="span4")
         h2 Seek
-        div(id="slider")
+        div(id="slider-horizontal")
 
       div(class="span3")
         h2 Volume
         p
           input(type="text", id="amount")
-        div(id="slider-vertical", style="height:300px;", value="80", min="0", max="95")
+        div(id="slider-vertical", value="80", min="0", max="95")

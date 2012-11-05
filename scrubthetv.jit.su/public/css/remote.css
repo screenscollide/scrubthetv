@@ -10,11 +10,37 @@ body{
   display: inline;
 }
 
-#slider{
+#slider-horizontal{
 	display: none;
 }
-
+#slider-vertical{
+	height:300px;
+}
 #amount{
 	color:#f6931f;
 	width: 30%;
+}
+.play{
+	background: transparent url("../img/icons/playback/play.png") top left no-repeat;
+	display: block;
+	height: 61px;
+	width: 62px;
+}
+.pause{
+	background: transparent url("../img/icons/playback/pause.png") top left no-repeat;
+	display: block;
+	height: 61px;
+	width: 62px;
+}
+.mute{
+	background: transparent url("../img/icons/playback/off.png") top left no-repeat;
+	display: block;
+	height: 61px;
+	width: 62px;
+}
+.unmute{
+	background: transparent url("../img/icons/playback/on.png") top left no-repeat;
+	display: block;
+	height: 61px;
+	width: 62px;	
 }

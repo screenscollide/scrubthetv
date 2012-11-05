@@ -1,7 +1,7 @@
 /*
  * name: sockets.io
- * Desc: Socket bridges the Social Remote with the Connected TV
- * Date Modified: 8/6/12
+ * Desc: Socket bridges the Social Remote view (remote.jade) with the TV view (tv.jade)
+ * Date Modified: 11/1/12
  * 
  */
 
@@ -10,12 +10,8 @@ var socket = require('socket.io');
 var io = {};
 
 exports.init = function( server ){
-	//Socket.io needs the express server
 	io = socket.listen( server );	
 	io.sockets.on( 'connection', function( socket ) {
-		//Send
-		io.sockets.emit('this', { will: 'be received by everyone'});
-		
 		//2nd screen to TV
 		socket.on("disconnect",    thisObj.onDisconnect );
 		socket.on("videoload",     thisObj.onVideoLoad );
@@ -27,6 +23,9 @@ exports.init = function( server ){
 		socket.on("videounmute",   thisObj.onVideoUnmute );
 		//TV to 2nd screen
 		socket.on("videoduration", thisObj.onVideoDuration );
+		socket.on("videoplaying", thisObj.onVideoPlaying );
+		socket.on("videopaused", thisObj.onVideoPaused );
+		
 	});
 }
 
@@ -70,4 +69,10 @@ exports.onVideoUnmute = function(  ){
 ////////////////////////////////////////////////////////////
 exports.onVideoDuration = function( obj ){
 	io.sockets.emit( "onVideoDuration", obj );
+}
+exports.onVideoPlaying = function( ){
+	io.sockets.emit( "onVideoPlaying" );
+}
+exports.onVideoPaused = function( obj ){
+	io.sockets.emit( "onVideoPaused" );
 }
