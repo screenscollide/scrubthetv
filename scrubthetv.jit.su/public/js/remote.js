@@ -127,6 +127,7 @@ function setVideoVolume( e ) {
 
 $("#play").bind("click", playVideo );
 function playVideo( e ) {
+	e.preventDefault();
 	if( $(this).hasClass("play") ){
 		$(this).removeClass()
 		$(this).addClass("pause")
