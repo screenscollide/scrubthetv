@@ -21,27 +21,29 @@ body{
 	color:#f6931f;
 	width: 30%;
 }
-.play{
-	background: transparent url("../img/icons/playback/play.png") top left no-repeat;
+
+.span3{
+	min-height: 125px;
+}
+.span4{
+	min-height: 100px;
+}
+#play, #mute{
+	background-image: url("../img/icons/controls.png");
+	float: left;
 	display: block;
-	height: 61px;
+	height: 63px;
 	width: 62px;
+}
+.play{
+	background-position: 0 0;
 }
 .pause{
-	background: transparent url("../img/icons/playback/pause.png") top left no-repeat;
-	display: block;
-	height: 61px;
-	width: 62px;
+	background-position: 0 -63px;
 }
 .mute{
-	background: transparent url("../img/icons/playback/off.png") top left no-repeat;
-	display: block;
-	height: 61px;
-	width: 62px;
+	background-position: 62px 0;
 }
 .unmute{
-	background: transparent url("../img/icons/playback/on.png") top left no-repeat;
-	display: block;
-	height: 61px;
-	width: 62px;	
+	background-position: 126px 0;
 }
