@@ -17,6 +17,8 @@ $( "#selections" ).bind("change", function( e ){
 	//Load video
 	var videoId = $( this + "option:selected").val();
 	if( videoId != "" ) loadVideo( videoId );
+	resetTimeSlider();
+	return false;
 });
 
 // Vertical slider
@@ -44,39 +46,27 @@ function initSlider( duration ){
 	if( superDuration <  1 ) superDuration = duration;
 	// Slider
 	$('#slider-horizontal').slider({
-		range: true,
-		values: [0, 100],
+		orientation: "horitonzal",
+		range: "min",
+		min: 0,
+		max: duration,
+//		range: true,
+//		values: [0, 100],
 		change: function(e, ui){
 			var value = ui.value;
-			var currentTime =  Math.floor( superDuration / value * 100 );
-			console.log( "dur:", duration, "val:", value, "currTime:", currentTime );
-			setVideoUpdate( currentTime );
+			var currentTime =  value;
+			console.log( "\n", "dur:", duration, "val:", value, "currTime:", currentTime, "\n" );
+			setVideoUpdate( value );
 		}
 	});
 	$("#slider-horizontal").show();
 	//Reveal the slider
 	$(".seekBar").show();
-	//Max Slider
-	$("#maxSlider").val( Math.floor( duration ) );
-	//Min + Max Slider
-	$("#minSlider, #maxSlider").attr({ "max": Math.floor( duration ) });
-	//Slider adjusters
-	$('#minSlider, #maxSlider').change( function(){
-		var min = parseInt( $("#minSlider").val() );
-		var max = parseInt( $('#maxSlider').val() );
-		if (min > max) {
-			$(this).val(max);
-			$(this).slider('refresh');
-		}
-		//Send data to server (app.js)
-		var currentTime = $(this).val();
-		setVideoUpdate( currentTime );
-	});
 }
 
 function resetTimeSlider( ){
 	$("#minSlider").val( 0 );
-	$('#slider-horizontal').val( 0 );
+	$('#slider-horizontal').slider({ min: 0 });
 }
 
 function updateTimeSlider( duration ){
@@ -116,6 +106,17 @@ socket.on( "emailStatus", function( success ) {
 	$(this).trigger("emailStatus", success )
 });
 
+function loadVideo( id ){
+	socket.emit( "videoload", id );
+}
+
+function setVideoUpdate( currentTime ){
+	socket.emit('videoupdate', currentTime );
+}
+
+////////////////////////////////////////////////////////////
+//Playback controls
+////////////////////////
 $('#volume').change( setVideoVolume );
 function setVideoVolume( e ) {
 	var volume = parseInt( $( this ).val() );
@@ -136,6 +137,7 @@ function playVideo( e ) {
 		socket.emit( "videoplay" );
 	}
 	$(document).trigger("updateCurrentTime", getCurrentTime() );
+	return false;
 }
 
 $("#mute").bind("click", muteVideo );
@@ -151,12 +153,27 @@ function muteVideo( e ) {
 		
 		socket.emit('videounmute' );
 	}
+	return false;
 }
 
-function loadVideo( id ){
-	socket.emit( "videoload", id );
-}
-
-function setVideoUpdate( currentTime ){
-	socket.emit('videoupdate', currentTime );
+////////////////////////////////////////////////////////////
+//Not used (yet...)
+////////////////////////
+function initSlider2(){
+	//Max Slider
+	$("#maxSlider").val( Math.floor( duration ) );
+	//Min + Max Slider
+	$("#minSlider, #maxSlider").attr({ "max": Math.floor( duration ) });
+	//Slider adjusters
+	$('#minSlider, #maxSlider').change( function(){
+		var min = parseInt( $("#minSlider").val() );
+		var max = parseInt( $('#maxSlider').val() );
+		if (min > max) {
+			$(this).val(max);
+			$(this).slider('refresh');
+		}
+		//Send data to server (app.js)
+		var currentTime = $(this).val();
+		setVideoUpdate( currentTime );
+	});	
 }
