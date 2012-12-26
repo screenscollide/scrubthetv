@@ -7,30 +7,14 @@ Control your desktop or large screen browser using a mobile device.
   - Just point your largescreen and mobile browsers to the same URL to get started
   - Ideas are welcomed (mail@chrisaiv.com)
 
-Audience
--------------
-Second screen consumers, Social TV viewers, Internet TV users, Transmedia academics.
 
-Objective?
--------------
+Installation
+--------------
+1. Install NodeJS + NPM
+2. Install ExpressJS
+3. Install PhoneGap
+4. Install PhoneGap Simulator
 
-TV watching has traditionally been perceived as a passive experience with limited opportunities for interaction. Through social technology and second screen thinking, new opportunities for rich, interactive storytelling can break this pattern of video consumption.
-
-Strategy
-------------
-
-Present a second screen experience using rapid technologies (like HTML, CSS and Javascript) to help producers better understand the new user frustrations and opportunities.
-
-Technology?
------------
-
-Rapid prototyping technologies:
-
-* NodeJS
-* ExpressJS
-* Socket.io
-* jQuery
-* Twitter Bootstrap
 
 Resources
 --------------
@@ -45,6 +29,8 @@ Resources
 8. https://developers.google.com/tv/web/docs/design_for_tv
 9. http://mike-hostetler.com/jquery-keyboard-navigation-plugin
 
+A. http://phonegap.com/download
+B. https://github.com/phonegap/ios-sim
 
 License
 -

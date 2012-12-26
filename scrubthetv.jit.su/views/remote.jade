@@ -1,9 +1,11 @@
-extends ./layouts/main
+extends layout
 
 block javascripts
-  script
+  //jQuery Touch Hack
+  script(type="text/javascript", charset="utf-8", src="/js/plugins/touchpunch/jquery.ui.touch-punch.min.js")
+  script(type="text/javascript", charset="utf-8")
     $(document).ready(function(){
-      $.getScript( "/js/remote.js" );
+      $.getScript( "/js/com.chrisaiv.Remote.js" );
       //Delay the load until everything is ready
       $.getScript( "/js/data.js", getScriptCompleteHandler);
         function getScriptCompleteHandler(){
@@ -12,13 +14,13 @@ block javascripts
     });
 
 block stylesheets
-  //jQuery UI 
-  link(rel="stylesheet", type="text/css", media="screen", href="/css/custom-theme/jquery-ui-1.8.16.custom.css")
-  link(rel="stylesheet", type="text/css", media="screen", href="/css/custom-theme/jquery.ui.1.8.16.ie.css")
   //YouTube data
   link(rel="stylesheet", type="text/css", href="/css/data.css")
 
   link(rel="stylesheet", type="text/css", href="/css/remote.css")
+  //Seek + Volume scrubber
+  link(rel="stylesheet", href="/css/smoothness/jquery-ui-1.9.2.custom.min.css")
+  
 
 block content
   div(class="container")

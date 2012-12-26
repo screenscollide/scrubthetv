@@ -1,10 +1,4 @@
-extends ./layouts/main
-
-block javascripts
-  //-script(defer, src='js/plugins.js')
-
-block stylesheets
-  style(type="text/css", media="screen")
+extends layout
 
 block content
   div(class="container")
@@ -16,7 +10,7 @@ block content
       br 
       p
         a(href="/tv", class="btn btn-primary btn-large") Start Watching &raquo;
-
+  
     //Example row of columns
     div(class="row")
       div(class="span3")
@@ -27,15 +21,15 @@ block content
           li Internet TV users
           li Interactive Producers
           li Transmedia academics
-
+  
       div(class="span3")
         h2 Objective
         p Through social technology and second screen thinking, new opportunities for rich, interactive storytelling can provide a new pattern for Television consumption.
-
+  
       div(class="span3")
          h2 Strategy
          p Present a second screen experience using rapid technologies (like HTML, CSS and Javascript) to help producers better understand the new user frustrations and opportunities.
-
+  
       div(class="span3")
          h2 Tools
          ul  
