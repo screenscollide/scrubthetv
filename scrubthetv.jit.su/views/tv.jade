@@ -1,5 +1,8 @@
 extends layout
 
+block stylesheets
+  style(type="text/css", media="screen", src="/css/tv.css");
+
 block javascripts
   //Google Javascript API
   script(type="text/javascript", charset="utf-8", src="http://www.google.com/jsapi")
@@ -15,11 +18,6 @@ block javascripts
           }
         });
       });
-
-block stylesheets
-  style(type="text/css", media="screen", src="/css/tv.css");
-  style(type="text/css", media="screen")
-    section{ text-align: center; }
 
 block content
   section

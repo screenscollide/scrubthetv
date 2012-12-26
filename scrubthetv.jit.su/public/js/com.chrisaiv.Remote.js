@@ -85,13 +85,21 @@ var SocketBridge = {
 
 var PlaybackControls = {
 	initialize: function( duration ){
-		
-		PlaybackControls.show();
-		
-		$( "#selections" ).change( Remote.changeVideo );
-		$( "#selections" ).change( PlaybackControls.reset );
-		$("#play").bind("click", Remote.playPause );
-		$("#mute").bind("click", Remote.muteUnmute );
+		//Only initialize once
+		if( !$("#slider-horizontal").is(":visible") ){
+			PlaybackControls.show();
+
+			$( "#selections" ).bind( "change", Remote.changeVideo );
+			$("#play").bind("click", Remote.playPause );
+			$("#mute").bind("click", Remote.muteUnmute );
+
+			PlaybackControls.initVolBar()
+			PlaybackControls.initSeekBar( duration );			
+		} else {
+			PlaybackControls.reset( duration );
+		}
+	},
+	initVolBar: function(){
 		$("#slider-vertical").slider({
 			orientation: "vertical",
 			range: "min",
@@ -104,7 +112,9 @@ var PlaybackControls = {
 				Remote.setVolume( volume );
 			}
 		});
-		$("#amount").val( 60 );
+		$("#amount").val( 60 );	
+	},
+	initSeekBar: function( duration ){
 		$('#slider-horizontal').slider({
 			orientation: "horitonzal",
 			range: "min",
@@ -134,8 +144,14 @@ var PlaybackControls = {
 		$("#slider-vertical").show();
 		$('#slider-horizontal').show();		
 	},
-	reset: function(){
-		$('#slider-horizontal').slider({ min: 0 });		
+	reset: function( duration ){
+		console.log( "PlaybackControls.reset", "duration", duration );
+		try{
+			$('#slider-horizontal').slider( "option", "value", 0 );
+			$('#slider-horizontal').slider( "option", "max", duration );
+		}catch( err){
+			console.log( "PlaybackControls.error:", err.message );
+		}
 	}
 }
 

@@ -4,17 +4,21 @@ body{
   -webkit-tap-highlight-color: rgba(0.0.0.0);
   -webkit-text-size-adjust: none;
   -webkit-user-select: none;
-
 }
 
-.show{
-  display: inline;
-}
+.show{ display: inline; }
+
+/*****************
+Scrubber
+*****************/
 
 #slider-horizontal{
 	display: none;
 	width: inherit;
 }
+/*****************
+Volume
+*****************/
 #slider-vertical{
 	height:300px;
 }
@@ -23,12 +27,12 @@ body{
 	width: 30%;
 }
 
-.span3{
-	min-height: 125px;
-}
-.span4{
-	min-height: 100px;
-}
+.span3 { min-height: 125px; }
+.span4 { min-height: 100px; }
+
+/*****************
+Play Pause 
+*****************/
 #play, #mute{
 	background-image: url("../img/icons/controls.png");
 	float: left;
@@ -36,15 +40,7 @@ body{
 	height: 63px;
 	width: 62px;
 }
-.play{
-	background-position: 0 0;
-}
-.pause{
-	background-position: 0 -63px;
-}
-.mute{
-	background-position: 62px 0;
-}
-.unmute{
-	background-position: 126px 0;
-}
+.play { background-position: 0 0; }
+.pause { background-position: 0 -63px; }
+.mute { background-position: 62px 0; }
+.unmute { background-position: 126px 0; }
