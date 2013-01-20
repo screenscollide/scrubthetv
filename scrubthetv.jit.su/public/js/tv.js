@@ -92,7 +92,7 @@ function onYouTubePlayerReady( id ) {
 	ytplayer.addEventListener( "onStateChange", "onPlayerStateChange" );
 	ytplayer.addEventListener( "onError", "onPlayerError" );
 	//Load an initial video into the player
-	var videoId = ( id.length > 0 && id != "player1" ) ? id : "K4Zo_XizA68";
+	var videoId = ( id.length > 0 && id != "player1" ) ? id : "WivhDJRXCU4";
 	ytplayer.loadVideoById( videoId );
 	ytplayer.setVolume( 10 );
 	ytplayer.setPlaybackQuality( "hd720" )
