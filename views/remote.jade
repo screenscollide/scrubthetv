@@ -22,8 +22,8 @@ block stylesheets
   
 
 block content
-  div(class="row")
-    div(class="span10")
+  .row
+    .span10
       h3 Top 10 Trending Movies on YouTube
   
       br
@@ -31,19 +31,19 @@ block content
       select(id="selections", name="videos[]")
         option(value="") Select a Movie:
         option(value="WivhDJRXCU4") City Lights
-  
+
   hr 
-  
-  div(class="row")
-    div(class="span3")
+
+  .row
+    .span3
       h2 Controls
       a(href="#", id="play", class="play")
       a(href="#", id="mute", class="mute")
-    div(class="span4")
+    .span4
       h2 Seek
-      div(id="slider-horizontal")
+      #slider-horizontal
   
-    div(class="span3")
+    .span3
       h2 Volume
       p
         input(type="text", id="amount")
