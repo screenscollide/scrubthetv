@@ -10,8 +10,6 @@
 
 var express = require('express')
   , routes  = require('./routes')
-  , remote  = require('./routes/remote')
-  , tv      = require('./routes/tv')
   , http    = require('http')
   , path    = require('path');
 
@@ -37,8 +35,8 @@ app.configure('development', function(){
 });
 
 app.get('/',       routes.index);
-app.get('/tv',     tv.list);
-app.get('/remote', remote.list);
+app.get('/tv',     routes.tv);
+app.get('/remote', routes.remote);
 
 var server = http.createServer(app);
 server.listen( app.get('port'), function(){

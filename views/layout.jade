@@ -1,7 +1,7 @@
 doctype 5
 html(lang="en")
   head
-    title Scrub the Television
+    title=title
 
     meta(charset="utf-8")
     meta(name="gtv-autozoom", content="off")
@@ -27,21 +27,24 @@ html(lang="en")
     //Socket.io
     script(type="text/javascript", src='/socket.io/socket.io.js')
     
-    script(type="text/javascript", src='/js/global.js')
     script(type="text/javascript")
       $(document).ready(function(){
-        includeFooter( new Date() );
+        $.getScript("/js/global.js")
       });
 
     block javascripts
 
   body
-    div(class="navbar navbar-fixed-top")
-      div(class="navbar-inner")
-        div(class="container")
-          a(href="https://github.com/chrisaiv/scrubthetv")
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          .masthead
+              ul.nav.nav-pills.pull-left
+                li: a(href="http://screenscollide.com", target="_new") ScreensCollide.com
+                li: a(href='/') Home
+                li: a(href='/tv') Watch
+          a(href="https://github.com/screenscollide/scrubthetv", target="_new")
             img(style="position: absolute; top: 0; right: 0; border: 0;", src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png", alt="Fork me on GitHub")
-          a(class="brand", href="http://screenscollide.com", target="_new") ScreensCollide.com
           
     div(class="container")    
         
@@ -54,9 +57,9 @@ html(lang="en")
                 &copy;
                 span &nbsp;
                 &nbsp;&nbsp;
-                a(href="http://twitter.com/chrisaiv", target="_new") @chrisaiv
+                a(href="//twitter.com/screenscollide", target="_new") @screenscollide
                 &nbsp;&nbsp;
-                a(href="http://chrisaiv.com/portfolio", target="_new") chrisaiv.com
+                a(href="//twitter.com/chrisaiv", target="_new") @chrisaiv
 
       include analytics
       

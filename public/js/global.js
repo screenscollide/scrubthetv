@@ -42,3 +42,15 @@ function resizeWindow( e ) {
 		//getFlashMovie("swfContainer").sendCanvasParamsFromJavascript( newWindowWidth, newWindowHeight );						
 	}
 }
+
+includeFooter( new Date() );
+
+//Navigation Highlighter
+//http://stackoverflow.com/questions/303956/jquery-select-a-which-href-contains-some-string
+switch( window.location.pathname ){
+	case "/remote":
+	$('ul.nav a[href$="/tv"]').parent().addClass("active");
+	break;
+	default:
+	$('ul.nav a[href$="' + window.location.pathname + '"]').parent().addClass("active");
+}
