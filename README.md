@@ -32,6 +32,11 @@ Resources
 A. http://phonegap.com/download
 B. https://github.com/phonegap/ios-sim
 
+Special Notes
+---------------
+You may need this when deploying on AWS
+sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to 8080
+
 License
 -
 
