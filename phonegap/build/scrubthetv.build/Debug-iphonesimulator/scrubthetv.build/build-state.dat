@@ -1,625 +1,0 @@
-Tscrubthetv
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Info.plist scrubthetv/scrubthetv-Info.plist
-cPhaseScriptExecution "Touch www folder" /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Script-304B58A110DAC018002A0835.sh
-cCpResource www cordova/../build/scrubthetv.app/www
-cCpResource scrubthetv/Resources/icons/icon-72.png cordova/../build/scrubthetv.app/icon-72.png
-cCopyPlistFile /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Cordova.plist scrubthetv/Resources/../Cordova.plist
-cCpResource scrubthetv/Resources/icons/icon.png cordova/../build/scrubthetv.app/icon.png
-cCpResource scrubthetv/Resources/icons/icon@2x.png cordova/../build/scrubthetv.app/icon@2x.png
-cCpResource scrubthetv/Resources/Capture.bundle cordova/../build/scrubthetv.app/Capture.bundle
-cCopyStringsFile /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/en.lproj/Localizable.strings scrubthetv/Resources/en.lproj/Localizable.strings
-cCopyStringsFile /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/es.lproj/Localizable.strings scrubthetv/Resources/es.lproj/Localizable.strings
-cCompileXIB /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.xib
-cCopyStringsFile /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/de.lproj/Localizable.strings scrubthetv/Resources/de.lproj/Localizable.strings
-cCopyStringsFile /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/se.lproj/Localizable.strings scrubthetv/Resources/se.lproj/Localizable.strings
-cCpResource scrubthetv/Resources/splash/Default-Landscape@2x~ipad.png cordova/../build/scrubthetv.app/Default-Landscape@2x~ipad.png
-cCpResource scrubthetv/Resources/splash/Default-Landscape~ipad.png cordova/../build/scrubthetv.app/Default-Landscape~ipad.png
-cCpResource scrubthetv/Resources/splash/Default-Portrait@2x~ipad.png cordova/../build/scrubthetv.app/Default-Portrait@2x~ipad.png
-cCpResource scrubthetv/Resources/splash/Default-Portrait~ipad.png cordova/../build/scrubthetv.app/Default-Portrait~ipad.png
-cCpResource scrubthetv/Resources/splash/Default@2x~iphone.png cordova/../build/scrubthetv.app/Default@2x~iphone.png
-cCpResource scrubthetv/Resources/splash/Default~iphone.png cordova/../build/scrubthetv.app/Default~iphone.png
-cCpResource scrubthetv/Resources/splash/Default-568h@2x~iphone.png cordova/../build/scrubthetv.app/Default-568h@2x~iphone.png
-cProcessPCH /var/folders/mx/wbnr5v6d34z07h7ptlb6419m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrubthetv-Prefix-ebzyvywpgdvdoagtckkbebgfznlf/scrubthetv-Prefix.pch.pth scrubthetv/scrubthetv-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/main.o /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/AppDelegate.o /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/MainViewController.o /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/scrubthetv normal i386
-cGenerateDSYMFile /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app.dSYM /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/scrubthetv
-cTouch /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
-c00000000504916AD0000000000000110
-t1346967213
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c0000000050CA3E6C00000000001EAFC0
-t1355431532
-s2011072
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
-c0000000050CA3E6B00000000000C0EF0
-t1355431531
-s790256
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
-c0000000050CA3E6C0000000000193640
-t1355431532
-s1652288
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c0000000050CA3E6C00000000003D2B80
-t1355431532
-s4008832
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c0000000050CA3E6C0000000000215D60
-t1355431532
-s2186592
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c0000000050CA3E6D0000000000228FD0
-t1355431533
-s2265040
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c0000000050CA3E6D000000000009C220
-t1355431533
-s639520
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-c0000000050CA3E6D0000000000085620
-t1355431533
-s546336
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c0000000050CA3E6E00000000003DCEF0
-t1355431534
-s4050672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c0000000050CA3E7100000000002C6C10
-t1355431537
-s2911248
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-c0000000050CA3E7200000000000BCB50
-t1355431538
-s772944
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c0000000050CA3E7200000000001D57A0
-t1355431538
-s1922976
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-c0000000050CA3E73000000000006CC50
-t1355431539
-s445520
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c0000000050CA3E750000000000AB3D60
-t1355431541
-s11222368
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/build/libCordova.a
-c0000000050DA456B0000000000319580
-t1356481899
-s3249536
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/AppDelegate.o
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/MainViewController.o
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/scrubthetv.LinkFileList
-c0000000050DA456B00000000000001A1
-t1356481899
-s417
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Script-304B58A110DAC018002A0835.sh
-c0000000050DA456B0000000000000027
-t1356481899
-s39
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app.dSYM
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Capture.bundle
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Cordova.plist
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Default-568h@2x~iphone.png
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Default-Landscape@2x~ipad.png
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Default-Landscape~ipad.png
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Default-Portrait@2x~ipad.png
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Default-Portrait~ipad.png
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Default@2x~iphone.png
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Default~iphone.png
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Info.plist
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/MainViewController.nib
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/PkgInfo
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/de.lproj/Localizable.strings
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/en.lproj/Localizable.strings
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/es.lproj/Localizable.strings
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/icon-72.png
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/icon.png
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/icon@2x.png
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/scrubthetv
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/se.lproj/Localizable.strings
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/www
-t2
-s0
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/AppDelegate.m
-c0000000050DA455600000000000015AB
-t1356481878
-s5547
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.m
-c0000000050DA455600000000000012F4
-t1356481878
-s4852
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.xib
-c0000000050DA45560000000000001759
-t1356481878
-s5977
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/../Cordova.plist
-c0000000050DA45560000000000000A33
-t1356481878
-s2611
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/Capture.bundle
-c0000000050DA4556000000000000030E
-t1356481878
-s782
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/de.lproj/Localizable.strings
-c0000000050DA45560000000000000485
-t1356481878
-s1157
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/en.lproj/Localizable.strings
-c0000000050DA45560000000000000470
-t1356481878
-s1136
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/es.lproj/Localizable.strings
-c0000000050DA4556000000000000047D
-t1356481878
-s1149
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/icons/icon-72.png
-c0000000050DA45560000000000001350
-t1356481878
-s4944
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/icons/icon.png
-c0000000050DA45560000000000000F3E
-t1356481878
-s3902
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/icons/icon@2x.png
-c0000000050DA45560000000000001EBD
-t1356481878
-s7869
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/se.lproj/Localizable.strings
-c0000000050DA45560000000000000471
-t1356481878
-s1137
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/splash/Default-568h@2x~iphone.png
-c0000000050DA45560000000000055EBB
-t1356481878
-s351931
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/splash/Default-Landscape@2x~ipad.png
-c0000000050DA45560000000000176888
-t1356481878
-s1534088
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/splash/Default-Landscape~ipad.png
-c0000000050DA455600000000000674B7
-t1356481878
-s423095
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/splash/Default-Portrait@2x~ipad.png
-c0000000050DA455600000000001892C2
-t1356481878
-s1610434
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/splash/Default-Portrait~ipad.png
-c0000000050DA45560000000000066F23
-t1356481878
-s421667
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/splash/Default@2x~iphone.png
-c0000000050DA45560000000000055981
-t1356481878
-s350593
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/splash/Default~iphone.png
-c0000000050DA45560000000000016EC9
-t1356481878
-s93897
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/main.m
-c0000000050DA4556000000000000045C
-t1356481878
-s1116
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/scrubthetv-Prefix.pch
-c0000000050DA455600000000000003C5
-t1356481878
-s965
-
-N/Users/ttrojan/Desktop/scrubthetv/phonegap/www
-c0000000050DA45560000000000000154
-t1356481878
-s340
-
-N/var/folders/mx/wbnr5v6d34z07h7ptlb6419m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrubthetv-Prefix-ebzyvywpgdvdoagtckkbebgfznlf/scrubthetv-Prefix.pch.pth
-t2
-s0
-
-Nscrubthetv/scrubthetv-Info.plist
-c0000000050DA455600000000000009CC
-t1356481878
-s2508
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesdb8b68eb7c8ab641^84d776eb7c8ab641^---0#1#0#--18"Check dependencies36"2FCFF9EB-E1E2-4387-85B5-696F14EE730A-
-
-CCompileC build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/AppDelegate.o /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s378174707.708768
-e378174707.845780
-r1
-xCompileC
-xbuild/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/AppDelegate.o
-x/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/AppDelegate.m:73:25: warning: 'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url. [-Wdeprecated-declarations]
-o    self.viewController.invokeString = invokeString;
-o                        ^
-o/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/include/Cordova/CDVViewController.h:43:50: note: 'invokeString' declared here
-o@property (nonatomic, readwrite, copy)NSString * invokeString CDV_DEPRECATED(2.0, "Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url.");
-o                                                 ^
-o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/AppDelegate.m76a5b5f37c8ab641^6284d8f37c8ab641^-762"/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/AppDelegate.m:73:25: warning: 'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url. [-Wdeprecated-declarations]    self.viewController.invokeString = invokeString;                        ^/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/include/Cordova/CDVViewController.h:43:50: note: 'invokeString' declared here@property (nonatomic, readwrite, copy)NSString * invokeString CDV_DEPRECATED(2.0, "Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url.");                                                 ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@161"'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url.-378174707#18446744073709551615#0#1(2@28"'invokeString' declared here-378174707#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@97"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/CordovaLib/Classes/CDVViewController.h0000000000000000^42#49#42#49#1597#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/AppDelegate.m0000000000000000^72#24#72#24#2390#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@91"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/AppDelegate.m0000000000000000^3732"CompileC build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/AppDelegate.o scrubthetv/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-generated-files.hmap -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-own-target-headers.hmap -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-all-target-headers.hmap -iquote /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-project-headers.hmap -I/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/include -I/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/usr/local/lib/include -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/UninstalledProducts/include -I/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/DerivedSources/i386 -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/DerivedSources -F/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build -include /var/folders/mx/wbnr5v6d34z07h7ptlb6419m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrubthetv-Prefix-ebzyvywpgdvdoagtckkbebgfznlf/scrubthetv-Prefix.pch -MMD -MT dependencies -MF /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/AppDelegate.dia -c /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/AppDelegate.m -o /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/AppDelegate.o36"9DCF933E-B7A0-41D7-98B8-D9A043C886C6-
-
-CCompileC build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/MainViewController.o /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s378174707.708789
-e378174707.846009
-r1
-xCompileC
-xbuild/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/MainViewController.o
-x/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.m:125:14: warning: 'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url. [-Wdeprecated-declarations]
-o    if (self.invokeString) {
-o             ^
-o/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/include/Cordova/CDVViewController.h:43:50: note: 'invokeString' declared here
-o@property (nonatomic, readwrite, copy)NSString * invokeString CDV_DEPRECATED(2.0, "Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url.");
-o                                                 ^
-o/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.m:128:93: warning: 'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url. [-Wdeprecated-declarations]
-o        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];
-o                                                                                            ^
-o2 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.m77bcb5f37c8ab641^fbb2d8f37c8ab641^-1227"/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.m:125:14: warning: 'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url. [-Wdeprecated-declarations]    if (self.invokeString) {             ^/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/include/Cordova/CDVViewController.h:43:50: note: 'invokeString' declared here@property (nonatomic, readwrite, copy)NSString * invokeString CDV_DEPRECATED(2.0, "Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url.");                                                 ^/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.m:128:93: warning: 'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url. [-Wdeprecated-declarations]        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];                                                                                            ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@161"'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url.-378174707#18446744073709551615#0#1(2@28"'invokeString' declared here-378174707#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@97"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/CordovaLib/Classes/CDVViewController.h0000000000000000^42#49#42#49#1597#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.m0000000000000000^124#13#124#13#3605#0#12"Deprecations--2@161"'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url.-378174707#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.m0000000000000000^127#92#127#92#4016#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@98"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.m0000000000000000^3774"CompileC build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/MainViewController.o scrubthetv/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-generated-files.hmap -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-own-target-headers.hmap -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-all-target-headers.hmap -iquote /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-project-headers.hmap -I/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/include -I/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/usr/local/lib/include -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/UninstalledProducts/include -I/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/DerivedSources/i386 -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/DerivedSources -F/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build -include /var/folders/mx/wbnr5v6d34z07h7ptlb6419m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrubthetv-Prefix-ebzyvywpgdvdoagtckkbebgfznlf/scrubthetv-Prefix.pch -MMD -MT dependencies -MF /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/MainViewController.dia -c /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.m -o /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/MainViewController.o36"873F7384-C7D1-4D1B-8951-7DF7AB64640E-
-
-CCompileC build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/main.o /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s378174707.708755
-e378174707.782884
-r1
-xCompileC
-xbuild/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/main.o
-x/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/main.m69a8b5f37c8ab641^276bc8f37c8ab641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/main.m0000000000000000^3674"CompileC build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/main.o scrubthetv/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-generated-files.hmap -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-own-target-headers.hmap -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-all-target-headers.hmap -iquote /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-project-headers.hmap -I/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/include -I/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/usr/local/lib/include -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/UninstalledProducts/include -I/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/DerivedSources/i386 -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/DerivedSources -F/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build -include /var/folders/mx/wbnr5v6d34z07h7ptlb6419m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrubthetv-Prefix-ebzyvywpgdvdoagtckkbebgfznlf/scrubthetv-Prefix.pch -MMD -MT dependencies -MF /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/main.dia -c /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/main.m -o /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/main.o36"CEA74786-1E9D-4441-A51F-C98DDA44F2D6-
-
-CCompileXIB /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.xib
-s378174699.570062
-e378174707.208519
-r1
-xCompileXIB
-x/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.xib
-o2012-12-25 16:31:45.827 Interface Builder Cocoa Touch Tool[17189:f07] CFPreferences: user home directory at file://localhost/Users/ttrojan/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compiling /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.xib1f1292eb7c8ab641^9e7d35f37c8ab641^-240"2012-12-25 16:31:45.827 Interface Builder Cocoa Touch Tool[17189:f07] CFPreferences: user home directory at file://localhost/Users/ttrojan/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.xib0000000000000000^1082"CompileXIB scrubthetv/Classes/MainViewController.xib    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/MainViewController.nib /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"8F067917-3541-4216-A903-880F44310A82-
-
-CCopyPlistFile /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Cordova.plist scrubthetv/Resources/../Cordova.plist
-s378174699.551516
-e378174699.557605
-r1
-xCopyPlistFile
-x/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Cordova.plist
-xscrubthetv/Resources/../Cordova.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy scrubthetv/Resources/../Cordova.plist97548deb7c8ab641^9bc68eeb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/../Cordova.plist0000000000000000^665"CopyPlistFile cordova/../build/scrubthetv.app/Cordova.plist scrubthetv/Resources/../Cordova.plist    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyPlist --convert binary1 --outdir /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app -- scrubthetv/Resources/../Cordova.plist36"01349301-65BE-4A01-8D3C-B57A1A1A7D95-
-
-CCopyStringsFile /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/de.lproj/Localizable.strings scrubthetv/Resources/de.lproj/Localizable.strings
-s378174699.570119
-e378174699.700311
-r1
-xCopyStringsFile
-x/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/de.lproj/Localizable.strings
-xscrubthetv/Resources/de.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy scrubthetv/Resources/de.lproj/Localizable.strings0a0f92eb7c8ab641^734bb3eb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/de.lproj/Localizable.strings0000000000000000^756"CopyStringsFile cordova/../build/scrubthetv.app/de.lproj/Localizable.strings scrubthetv/Resources/de.lproj/Localizable.strings    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/de.lproj -- scrubthetv/Resources/de.lproj/Localizable.strings36"462EB14B-5CE9-4797-89B8-B4BAD08209E2-
-
-CCopyStringsFile /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/en.lproj/Localizable.strings scrubthetv/Resources/en.lproj/Localizable.strings
-s378174699.559097
-e378174699.568540
-r1
-xCopyStringsFile
-x/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/en.lproj/Localizable.strings
-xscrubthetv/Resources/en.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy scrubthetv/Resources/en.lproj/Localizable.strings103f8feb7c8ab641^9da091eb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/en.lproj/Localizable.strings0000000000000000^756"CopyStringsFile cordova/../build/scrubthetv.app/en.lproj/Localizable.strings scrubthetv/Resources/en.lproj/Localizable.strings    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/en.lproj -- scrubthetv/Resources/en.lproj/Localizable.strings36"D2B0F753-DB14-4440-913C-5D37AE780D55-
-
-CCopyStringsFile /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/es.lproj/Localizable.strings scrubthetv/Resources/es.lproj/Localizable.strings
-s378174699.561467
-e378174699.613218
-r1
-xCopyStringsFile
-x/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/es.lproj/Localizable.strings
-xscrubthetv/Resources/es.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy scrubthetv/Resources/es.lproj/Localizable.strings83de8feb7c8ab641^cefe9ceb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/es.lproj/Localizable.strings0000000000000000^756"CopyStringsFile cordova/../build/scrubthetv.app/es.lproj/Localizable.strings scrubthetv/Resources/es.lproj/Localizable.strings    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/es.lproj -- scrubthetv/Resources/es.lproj/Localizable.strings36"BB1D1986-CD3B-45A1-8AC1-F0A9966C38FE-
-
-CCopyStringsFile /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/se.lproj/Localizable.strings scrubthetv/Resources/se.lproj/Localizable.strings
-s378174699.571693
-e378174699.700307
-r1
-xCopyStringsFile
-x/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/se.lproj/Localizable.strings
-xscrubthetv/Resources/se.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy scrubthetv/Resources/se.lproj/Localizable.strings607392eb7c8ab641^5247b3eb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/se.lproj/Localizable.strings0000000000000000^756"CopyStringsFile cordova/../build/scrubthetv.app/se.lproj/Localizable.strings scrubthetv/Resources/se.lproj/Localizable.strings    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/se.lproj -- scrubthetv/Resources/se.lproj/Localizable.strings36"CE162B99-FCDC-47CC-BD2C-0C4A1321E352-
-
-CCpResource scrubthetv/Resources/Capture.bundle cordova/../build/scrubthetv.app/Capture.bundle
-s378174699.558853
-e378174699.570467
-r1
-xCpResource
-xscrubthetv/Resources/Capture.bundle
-xcordova/../build/scrubthetv.app/Capture.bundle
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy cordova/../build/scrubthetv.app/Capture.bundle7d3d8feb7c8ab641^471c92eb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Capture.bundle000000000080d041^762"CpResource scrubthetv/Resources/Capture.bundle cordova/../build/scrubthetv.app/Capture.bundle    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/Capture.bundle /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app36"35E9EAA6-10FD-44AC-9627-AFAD0A3DCEC4-
-
-CCpResource scrubthetv/Resources/icons/icon-72.png cordova/../build/scrubthetv.app/icon-72.png
-s378174699.551514
-e378174699.553918
-r1
-xCpResource
-xscrubthetv/Resources/icons/icon-72.png
-xcordova/../build/scrubthetv.app/icon-72.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy cordova/../build/scrubthetv.app/icon-72.png6f4a8deb7c8ab641^63d08deb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/icon-72.png000000000080d041^765"CpResource scrubthetv/Resources/icons/icon-72.png cordova/../build/scrubthetv.app/icon-72.png    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/icons/icon-72.png /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app36"414E5D70-8651-4D78-A784-32743ADA17F6-
-
-CCpResource scrubthetv/Resources/icons/icon.png cordova/../build/scrubthetv.app/icon.png
-s378174699.552134
-e378174699.557872
-r1
-xCpResource
-xscrubthetv/Resources/icons/icon.png
-xcordova/../build/scrubthetv.app/icon.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy cordova/../build/scrubthetv.app/icon.png986b8deb7c8ab641^e0d58eeb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/icon.png000000000080d041^756"CpResource scrubthetv/Resources/icons/icon.png cordova/../build/scrubthetv.app/icon.png    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/icons/icon.png /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app36"3C3195DF-147D-4D67-A843-BA49ABEFA691-
-
-CCpResource scrubthetv/Resources/icons/icon@2x.png cordova/../build/scrubthetv.app/icon@2x.png
-s378174699.555252
-e378174699.560033
-r1
-xCpResource
-xscrubthetv/Resources/icons/icon@2x.png
-xcordova/../build/scrubthetv.app/icon@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy cordova/../build/scrubthetv.app/icon@2x.pngd0468eeb7c8ab641^ef708feb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/icon@2x.png000000000080d041^771"CpResource "scrubthetv/Resources/icons/icon@2x.png" "cordova/../build/scrubthetv.app/icon@2x.png"    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/icons/icon@2x.png" /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app36"424C1198-C059-4277-B727-C650A282DE6B-
-
-CCpResource scrubthetv/Resources/splash/Default-568h@2x~iphone.png cordova/../build/scrubthetv.app/Default-568h@2x~iphone.png
-s378174699.642030
-e378174699.644443
-r1
-xCpResource
-xscrubthetv/Resources/splash/Default-568h@2x~iphone.png
-xcordova/../build/scrubthetv.app/Default-568h@2x~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy cordova/../build/scrubthetv.app/Default-568h@2x~iphone.png126ca4eb7c8ab641^adfaa4eb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Default-568h@2x~iphone.png000000000080d041^818"CpResource "scrubthetv/Resources/splash/Default-568h@2x~iphone.png" "cordova/../build/scrubthetv.app/Default-568h@2x~iphone.png"    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/splash/Default-568h@2x~iphone.png" /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app36"7360B7A5-F29C-4523-ADDF-FE5468FA010A-
-
-CCpResource scrubthetv/Resources/splash/Default-Landscape@2x~ipad.png cordova/../build/scrubthetv.app/Default-Landscape@2x~ipad.png
-s378174699.614811
-e378174699.618845
-r1
-xCpResource
-xscrubthetv/Resources/splash/Default-Landscape@2x~ipad.png
-xcordova/../build/scrubthetv.app/Default-Landscape@2x~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy cordova/../build/scrubthetv.app/Default-Landscape@2x~ipad.pngab7a9deb7c8ab641^ad6d9eeb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Default-Landscape@2x~ipad.png000000000080d041^827"CpResource "scrubthetv/Resources/splash/Default-Landscape@2x~ipad.png" "cordova/../build/scrubthetv.app/Default-Landscape@2x~ipad.png"    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/splash/Default-Landscape@2x~ipad.png" /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app36"BD6E9C50-DF7D-4955-8A30-5239C5644CB1-
-
-CCpResource scrubthetv/Resources/splash/Default-Landscape~ipad.png cordova/../build/scrubthetv.app/Default-Landscape~ipad.png
-s378174699.620498
-e378174699.623340
-r1
-xCpResource
-xscrubthetv/Resources/splash/Default-Landscape~ipad.png
-xcordova/../build/scrubthetv.app/Default-Landscape~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy cordova/../build/scrubthetv.app/Default-Landscape~ipad.png20ee9eeb7c8ab641^ab939feb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Default-Landscape~ipad.png000000000080d041^818"CpResource "scrubthetv/Resources/splash/Default-Landscape~ipad.png" "cordova/../build/scrubthetv.app/Default-Landscape~ipad.png"    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/splash/Default-Landscape~ipad.png" /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app36"A47CE652-5DCB-4516-BDD8-6635D7E7288D-
-
-CCpResource scrubthetv/Resources/splash/Default-Portrait@2x~ipad.png cordova/../build/scrubthetv.app/Default-Portrait@2x~ipad.png
-s378174699.624650
-e378174699.628556
-r1
-xCpResource
-xscrubthetv/Resources/splash/Default-Portrait@2x~ipad.png
-xcordova/../build/scrubthetv.app/Default-Portrait@2x~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy cordova/../build/scrubthetv.app/Default-Portrait@2x~ipad.pngadfb9feb7c8ab641^63eca0eb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Default-Portrait@2x~ipad.png000000000080d041^824"CpResource "scrubthetv/Resources/splash/Default-Portrait@2x~ipad.png" "cordova/../build/scrubthetv.app/Default-Portrait@2x~ipad.png"    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/splash/Default-Portrait@2x~ipad.png" /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app36"A95DF7F4-45E4-44E6-AC8F-D03A92D755E2-
-
-CCpResource scrubthetv/Resources/splash/Default-Portrait~ipad.png cordova/../build/scrubthetv.app/Default-Portrait~ipad.png
-s378174699.630195
-e378174699.632949
-r1
-xCpResource
-xscrubthetv/Resources/splash/Default-Portrait~ipad.png
-xcordova/../build/scrubthetv.app/Default-Portrait~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy cordova/../build/scrubthetv.app/Default-Portrait~ipad.pngf968a1eb7c8ab641^6809a2eb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Default-Portrait~ipad.png000000000080d041^815"CpResource "scrubthetv/Resources/splash/Default-Portrait~ipad.png" "cordova/../build/scrubthetv.app/Default-Portrait~ipad.png"    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/splash/Default-Portrait~ipad.png" /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app36"89523560-F952-401B-BC9A-00644AAA9633-
-
-CCpResource scrubthetv/Resources/splash/Default@2x~iphone.png cordova/../build/scrubthetv.app/Default@2x~iphone.png
-s378174699.634330
-e378174699.636645
-r1
-xCpResource
-xscrubthetv/Resources/splash/Default@2x~iphone.png
-xcordova/../build/scrubthetv.app/Default@2x~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy cordova/../build/scrubthetv.app/Default@2x~iphone.png2a74a2eb7c8ab641^c2fba2eb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Default@2x~iphone.png000000000080d041^803"CpResource "scrubthetv/Resources/splash/Default@2x~iphone.png" "cordova/../build/scrubthetv.app/Default@2x~iphone.png"    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/splash/Default@2x~iphone.png" /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app36"8DC75423-5E8A-43EF-873D-288CC38F27EE-
-
-CCpResource scrubthetv/Resources/splash/Default~iphone.png cordova/../build/scrubthetv.app/Default~iphone.png
-s378174699.638292
-e378174699.640817
-r1
-xCpResource
-xscrubthetv/Resources/splash/Default~iphone.png
-xcordova/../build/scrubthetv.app/Default~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy cordova/../build/scrubthetv.app/Default~iphone.png5379a3eb7c8ab641^2c0da4eb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Default~iphone.png000000000080d041^794"CpResource "scrubthetv/Resources/splash/Default~iphone.png" "cordova/../build/scrubthetv.app/Default~iphone.png"    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/Resources/splash/Default~iphone.png" /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app36"1D635A6C-FF33-43F6-9DC8-6CC33504BBBE-
-
-CCpResource www cordova/../build/scrubthetv.app/www
-s378174699.551498
-e378174699.569195
-r1
-xCpResource
-xwww
-xcordova/../build/scrubthetv.app/www
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy cordova/../build/scrubthetv.app/wwwd74d8deb7c8ab641^94c191eb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/www000000000080d041^687"CpResource www cordova/../build/scrubthetv.app/www    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ttrojan/Desktop/scrubthetv/phonegap/www /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app36"1F3744EF-AC2F-4E6F-91B4-A88A0DE1B7CF-
-
-CGenerateDSYMFile /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app.dSYM /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/scrubthetv
-s378174709.148629
-e378174709.312307
-r1
-xGenerateDSYMFile
-x/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app.dSYM
-x/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/scrubthetv
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Generating /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app.dSYMd52626f57c8ab641^aef34ff57c8ab641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app.dSYM000000000080d041^768"GenerateDSYMFile cordova/../build/scrubthetv.app.dSYM cordova/../build/scrubthetv.app/scrubthetv    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/scrubthetv -o /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app.dSYM36"21B0CAE0-98A3-415C-B9D4-5CA8BF4F29E7-
-
-CLd /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/scrubthetv normal i386
-s378174707.852634
-e378174709.141786
-r1
-xLd
-x/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/scrubthetv
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Link /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/scrubthetvd270daf37c8ab641^ad4c24f57c8ab641^---0#0#0#--1774"Ld cordova/../build/scrubthetv.app/scrubthetv normal i386    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build -F/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build -filelist /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/scrubthetv.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=4.3 /Users/ttrojan/Desktop/scrubthetv/phonegap/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/scrubthetv36"900BDA2A-35C6-481B-9622-2C8D0DFF3740-
-
-CPhaseScriptExecution "Touch www folder" /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Script-304B58A110DAC018002A0835.sh
-s378174699.487001
-e378174699.543387
-r1
-xPhaseScriptExecution
-xTouch www folder
-x/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Script-304B58A110DAC018002A0835.sh
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Run custom shell script 'Touch www folder'e97e7eeb7c8ab641^c11a8beb7c8ab641^---0#0#0#--20483"PhaseScriptExecution "Touch www folder" build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Script-304B58A110DAC018002A0835.sh    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER ttrojan    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build    setenv BUILD_ROOT /Users/ttrojan/Desktop/scrubthetv/phonegap/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build    setenv CACHE_ROOT /var/folders/mx/wbnr5v6d34z07h7ptlb6419m0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/mx/wbnr5v6d34z07h7ptlb6419m0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_OBJCPP_ARC_ABI YES    setenv CLASS_FILE_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/mx/wbnr5v6d34z07h7ptlb6419m0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build    setenv CONFIGURATION_TEMP_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH scrubthetv.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH scrubthetv.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/scrubthetv.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME scrubthetv.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH scrubthetv.app/Executables    setenv EXECUTABLE_FOLDER_PATH scrubthetv.app    setenv EXECUTABLE_NAME scrubthetv    setenv EXECUTABLE_PATH scrubthetv.app/scrubthetv    setenv FILE_LIST /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH scrubthetv.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME scrubthetv.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER scrubthetv/scrubthetv-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/include\" \"/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/usr/local/lib/include\" \"/Users/ttrojan/Desktop/scrubthetv/phonegap/build/UninstalledProducts/include\" \"/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE scrubthetv/scrubthetv-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH scrubthetv.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH scrubthetv.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/scrubthetv.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER ttrojan    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/scrubthetv.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH scrubthetv.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal/i386/scrubthetv.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH scrubthetv.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12B2100    setenv MAC_OS_X_VERSION_ACTUAL 1081    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0801    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Objects-normal    setenv OBJROOT /Users/ttrojan/Desktop/scrubthetv/phonegap/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH scrubthetv.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/PkgInfo    setenv PKGINFO_PATH scrubthetv.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10A403    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH scrubthetv.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH scrubthetv.app/PrivateHeaders    setenv PRODUCT_NAME scrubthetv    setenv PRODUCT_SETTINGS_PATH /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/scrubthetv-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT scrubthetv    setenv PROJECT_DERIVED_FILE_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/DerivedSources    setenv PROJECT_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PROJECT_FILE_PATH /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv.xcodeproj    setenv PROJECT_NAME scrubthetv    setenv PROJECT_TEMP_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build    setenv PUBLIC_HEADERS_FOLDER_PATH scrubthetv.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH scrubthetv.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk    setenv SDK_NAME iphonesimulator6.0    setenv SDK_PRODUCT_BUILD_VERSION 10A403    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH scrubthetv.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/mx/wbnr5v6d34z07h7ptlb6419m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH scrubthetv.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv SRCROOT /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/ttrojan/Desktop/scrubthetv/phonegap/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME scrubthetv    setenv TARGET_BUILD_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build    setenv TARGET_NAME scrubthetv    setenv TARGET_TEMP_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build    setenv TEMP_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build    setenv TEMP_FILES_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build    setenv TEMP_FILE_DIR /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build    setenv TEMP_ROOT /Users/ttrojan/Desktop/scrubthetv/phonegap/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH scrubthetv.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER ttrojan    setenv USER_APPS_DIR /Users/ttrojan/Applications    setenv USER_LIBRARY_DIR /Users/ttrojan/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH scrubthetv.app/version.plist    setenv VERSION_INFO_BUILDER ttrojan    setenv VERSION_INFO_FILE scrubthetv_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:scrubthetv  PROJECT:scrubthetv-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME scrubthetv.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4G2008a    setenv XCODE_VERSION_ACTUAL 0452    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0450    setenv YACC yacc    /bin/sh -c /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/Script-304B58A110DAC018002A0835.sh36"03DE16BE-74CD-4998-B53D-A2E7897469D6-
-
-CProcessInfoPlistFile /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Info.plist scrubthetv/scrubthetv-Info.plist
-s378174699.472367
-e378174699.476300
-r1
-xProcessInfoPlistFile
-x/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Info.plist
-xscrubthetv/scrubthetv-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process scrubthetv/scrubthetv-Info.plist4a0979eb7c8ab641^31ef79eb7c8ab641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/scrubthetv-Info.plist0000000000000000^807"ProcessInfoPlistFile cordova/../build/scrubthetv.app/Info.plist scrubthetv/scrubthetv-Info.plist    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility scrubthetv/scrubthetv-Info.plist -genpkginfo /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app/Info.plist36"ABDD209A-9F2F-4BF1-BEDF-E2AFFE989EFB-
-
-CProcessPCH /var/folders/mx/wbnr5v6d34z07h7ptlb6419m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrubthetv-Prefix-ebzyvywpgdvdoagtckkbebgfznlf/scrubthetv-Prefix.pch.pth scrubthetv/scrubthetv-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s378174707.217149
-e378174707.701979
-r1
-xProcessPCH
-x/var/folders/mx/wbnr5v6d34z07h7ptlb6419m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrubthetv-Prefix-ebzyvywpgdvdoagtckkbebgfznlf/scrubthetv-Prefix.pch.pth
-xscrubthetv/scrubthetv-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile scrubthetv/scrubthetv-Prefix.pch47c937f37c8ab641^7cb5b3f37c8ab641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/scrubthetv-Prefix.pch0000000000000000^3720"ProcessPCH /var/folders/mx/wbnr5v6d34z07h7ptlb6419m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrubthetv-Prefix-ebzyvywpgdvdoagtckkbebgfznlf/scrubthetv-Prefix.pch.pth scrubthetv/scrubthetv-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-generated-files.hmap -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-own-target-headers.hmap -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-all-target-headers.hmap -iquote /Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/scrubthetv-project-headers.hmap -I/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/include -I/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/usr/local/lib/include -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/UninstalledProducts/include -I/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/DerivedSources/i386 -I/Users/ttrojan/Desktop/scrubthetv/phonegap/build/scrubthetv.build/Debug-iphonesimulator/scrubthetv.build/DerivedSources -F/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build --serialize-diagnostics /var/folders/mx/wbnr5v6d34z07h7ptlb6419m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrubthetv-Prefix-ebzyvywpgdvdoagtckkbebgfznlf/scrubthetv-Prefix.pch.dia -c /Users/ttrojan/Desktop/scrubthetv/phonegap/scrubthetv/scrubthetv-Prefix.pch -o /var/folders/mx/wbnr5v6d34z07h7ptlb6419m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrubthetv-Prefix-ebzyvywpgdvdoagtckkbebgfznlf/scrubthetv-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/mx/wbnr5v6d34z07h7ptlb6419m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrubthetv-Prefix-ebzyvywpgdvdoagtckkbebgfznlf/scrubthetv-Prefix.pch.d36"28E14E09-7762-4A52-B6F3-0D5882437EC2-
-
-CTouch /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app
-s378174709.320695
-e378174709.326561
-r1
-xTouch
-x/Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Touch /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app7f2e52f57c8ab641^d49953f57c8ab641^---0#0#0#--537"Touch cordova/../build/scrubthetv.app    cd /Users/ttrojan/Desktop/scrubthetv/phonegap    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/lib/node_modules:/Applications/blackberry-tablet-sdk-2.1.0/bin:/Users/ttrojan/Library/Developer/AdobeAIRSDK_3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/ttrojan/Desktop/scrubthetv/phonegap/cordova/../build/scrubthetv.app36"0C4B89E5-A62A-423A-9B65-3B900DA94A5D-
-
