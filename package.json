@@ -1,7 +1,10 @@
 {
   "name": "scrubthetv",
   "subdomain": "scrubthetv",
-  "version": "0.0.1-26",
+  "domains": [
+    "scrubthetv.screenscollide.com"
+  ],
+  "version": "0.0.1-27",
   "private": true,
   "scripts": {
     "start": "app.js"
@@ -13,7 +16,7 @@
     "express": "3.0.x",
     "socket.io": "0.9.x",
     "nodemon": "0.6.x",
-	"forever": "0.10.x",
+    "forever": "0.10.x",
     "jade": "0.27.x"
   }
 }
