@@ -1,17 +1,11 @@
-[http://scrubthetv.screenscollide.com/](http://scrubthetv.screenscollide.com/)
+[http://scrubthetv.screenscollide.com](http://scrubthetv.screenscollide.com)
 =
 
 Control your desktop or large screen browser using a mobile device.
 - 
 - Full Javascript stack using ExpressJS, socket.io, and jQuery
 - Just point your largescreen and mobile browsers to the same URL to get started
-- Ideas/Comments/Suggestions are welcomed (mail@chrisaiv.com)
-- YouTube Demo: http://www.screenscollide.com/uncategorized/how-to-turn-your-mobile-phone-into-a-remote-control/
-
-Installation
--
-1. Install NodeJS + NPM
-2. Install ExpressJS
+- Ideas/Comments/Suggestions are welcomed [mail@chrisaiv.com](mail@chrisaiv.com)
 
 Resources
 -
@@ -33,7 +27,7 @@ sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to 8080
 ```
 Author
 -
-- Chris Mendez | [@chrismendezinla] http://twitter.com/chrismendezinla
+- Chris Mendez | [@chrismendezinla](http://twitter.com/chrismendezinla)
 
 
 License
